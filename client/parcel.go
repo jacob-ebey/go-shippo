@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/coldbrewcloud/go-shippo/models"
+	"github.com/jacob-ebey/go-shippo/models"
 )
 
 // CreateParcel creates a new parcel object.
