@@ -20,7 +20,7 @@ type Transaction struct {
 	Status               string                `json:"status,omitempty"`
 	Test                 bool                  `json:"test"`
 	TrackingNumber       string                `json:"tracking_number,omitempty"`
-	TrackingStatus       *TrackingStatusDict   `json:"tracking_status,omitempty"`
+	TrackingStatus       string                `json:"tracking_status,omitempty"`
 	TrackingHistory      []*TrackingStatusDict `json:"tracking_history,omitempty"`
 	TrackingURLProvider  string                `json:"tracking_url_provider,omitempty"`
 	LabelURL             string                `json:"label_url,omitempty"`
